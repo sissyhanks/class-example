@@ -9,19 +9,6 @@ body {
   position: relative;
 }
 
-ul {
-  margin-top: 0;
-  padding: 0;
-  line-height: 20px;
-}
-
-li {
-  display: inline;
-  padding: 0 20px 0 20px;
-  text-decoration: none;
-  margin: none;
-}
-
 a {
   text-decoration: none;
   color: #e3fed7;
@@ -37,7 +24,7 @@ header {
 }
 
 main {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 img {
@@ -49,11 +36,51 @@ img {
 
 figcaption {
   width: 350px;
-  padding: 5px 25px 10px 25px;
+  padding: 20px 25px 30px 25px;
   margin: 0 auto;
-  font-size: 15px;
+  font-size: 16px;
   background-color: #e3fed7;
   color: #261447;
+}
+
+input {
+  width: 300px;
+  padding: 5px;
+  border: 2px solid #fe0061;
+  border-radius: 7px;
+}
+
+form {
+  position: relative;
+  border: solid 2px #261447;
+  border-radius: 5px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+
+button {
+  background-color: #fe0061;
+  border: solid #261447 2px;
+  border-radius: 5px;
+  color: #e3fed7;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Garmond", serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer {
+  background-color: #261447;
+  color: #e3fed7;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 18px;
 }
 
 .top-name {
@@ -64,4 +91,45 @@ figcaption {
 
 .text-center {
   text-align: center;
+}
+
+.nav-item {
+  display: inline;
+  padding: 0 20px 0 20px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: none;
+}
+
+.contact-text {
+  text-align: center;
+  color: #261447;
+
+  margin: 10px 0;
+}
+
+.contact-me {
+  text-align: center;
+  list-style-type: none;
+  color: #261447;
+  padding: 12px 0;
+  font-size: 20px;
+  margin: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  padding: 0;
+  line-height: 20px;
+}
+#contact {
+  height: 225px;
+  width: 100%;
+  background-color: #e3fed7;
+  border-top: solid 7px #fe0061;
+}
+
+#contact-list {
+  padding: 0;
+  list-style-type: none;
 }
